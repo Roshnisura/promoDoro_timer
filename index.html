@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promodoro Timer</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6f3103b13c.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <section>
+        <div class="container">
+            <h1>Promodoro</h1>
+            <div class="painel">
+                <p id="work" >work</p>
+                <p id="break">break</p>
+
+            </div>
+            <div class="timer">
+                <div class="circle">
+                    <div class="time">
+                        <p id="minutes"></p>
+                        <p>:</p>
+                        <p id="seconds"></p>
+                    </div>
+                </div>
+            </div>
+<div class="controls">
+    <buton id="start" onclick="start()"><i class="fa-regular fa-circle-play"></i></buton>
+    <a id="reset" href="./"><i class="fa-sharp fa-solid fa-arrow-rotate-right"></i></a>
+</div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
